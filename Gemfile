@@ -17,6 +17,6 @@ gemspec
 
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-platform: :mingw, :mswin, :x64_mingw, :jruby do
+platform :mingw, :mswin, :x64_mingw, :jruby do
   gem 'tzinfo-data'
 end
