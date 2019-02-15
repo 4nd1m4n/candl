@@ -30,4 +30,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.0'
   s.add_development_dependency 'rspec-rails', '~> 3.8', '>= 3.8.0'
+  # Maybe needed for ci to work right?
+  # s.add_development_dependency 'travis', '~> 1.8', '>= 1.8.9'
 end
