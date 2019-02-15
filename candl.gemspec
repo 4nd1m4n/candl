@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Candl::VERSION
   s.authors     = ["Andreas Schau"]
   s.email       = ["andreas.schau@hicknhack-software.com"]
-  s.homepage    = "https://www.hicknhack-software.com/it-events" # TODO: Replace with hnh githup repo link
+  s.homepage    = "https://github.com/hicknhack-software/candl"
   s.summary     = %q{This gem provides functionality to handle the loading of event data from a public google calendar via an api key and displaying it in a view. (Without the need for OAuth.)}
   s.description = %q{This gem provides functionality to handle the loading of event data from a public google calendar via an api key and display it in a view. (Without the need for OAuth.) It does so by offering functions that gather the event data, cache it and structure it in a way that makes it easy to display in an agenda or monthly overview-like style. Visit us and see an example at: https://www.hicknhack-software.com/it-events}
   s.license     = "MIT"
