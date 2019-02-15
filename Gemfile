@@ -15,4 +15,8 @@ gemspec
 # gem 'byebug', group: [:development, :test]
 
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+platform: :mingw, :mswin, :x64_mingw, :jruby do
+  gem 'tzinfo-data'
+end
