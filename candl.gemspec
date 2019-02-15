@@ -28,6 +28,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails_autolink', '~> 1.1', '>= 1.1.0'
   s.add_dependency 'coffee-rails', '~> 4.2', '>= 4.2.0'
 
-  # s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.0'
+  s.add_development_dependency 'sqlite3', '~> 1.4', '>= 1.4.0'
   s.add_development_dependency 'rspec-rails', '~> 3.8', '>= 3.8.0'
 end
